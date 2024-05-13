@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="This is my HTML CSS Variables in HTML File for this Web-Development_Full_Course Series.">
+    <title>Spotify - Web Player: Music for everyone</title>
+
+    <!-- this line of code is used to link the css file in the HTML File -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+    <!-- This linke of code is used to add tab icon in the HTML file. -->
+    <link rel="tab icon" type="x-icon" href="Images/favicon.ico">
+
+</head>
+
+<body>
+
+    <div class="continer flex bg-black">
+
+        <div class="left">
+            <div class="close">
+                <img class="invert" width="30" src="Images/close.svg" alt="close icon">
+            </div>
+            <div class="home bg-gray rounded m-1 p-1">
+                <div class="logo">
+                    <img width="100" class="invert"
+                        src="Images/Logo.svg" alt="Spotify Logo">
+                </div>
+                <ul>
+                    <li><img class="invert"
+                            src="Images/homeLogo.svg"
+                            alt="Home Image">Home</li>
+                    <li><img class="invert"
+                            src="Images/searchLogo.svg"
+                            alt="Search Image">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-gray rounded m-1 p-1">
+                <div class="heading">
+                    <img class="invert"
+                        src="Images/libraryLogo.svg"
+                        alt="libraryLogo">
+                    <h2>
+                        your library
+                    </h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                        
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right bg-gray rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgerContainer">
+                        <img width="40" class="invert hamburger"
+                            src="Images/hamburger.svg"
+                            alt="hamburger menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M15 6L9 12L15 18" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="16" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9.00005 6L15 12L9 18" stroke="#ffffff" stroke-width="1.5"
+                                stroke-miterlimit="16" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="signupBtn">Sign up</button>
+                    <button class="loginBtn">Log in</button>
+                </div>
+            </div>
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlists</h1>
+                <div class="cardContainer">
+                    <!-- <div data-folder="cs" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div> -->
+                    <!-- <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002d8fe1c03afc22a01d5109233" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002d2a456d9f98d82271abf2c15" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002ce8e89604efb1f3122f31023" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div> -->
+                    <!-- <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f000000028d2c0fbb4e007f6dac9db559" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f00000002468762ec9fd93a2dc3b167ee" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div> -->
+                    <!-- <div data-folder="ncs" class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000204c4c53344f46e15b169eedf" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002d971c6c23114fc7636dc23eb" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <div class="play">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="#000"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e" alt="Image1">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div> -->
+                </div>
+                <div class="playBar">
+                    <div class="seekBar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="songNameAndTimeBar">
+                        <div class="songInfo invert">
+                            <!-- smoethinsadfaf -->
+                        </div>
+                        <div class="songButtons">
+                            <img width="30" id="previous" class="invert"
+                                src="Images/PreviousBtn.svg"
+                                alt="Previous button">
+                            <img width="30" id="play" class="invert"
+                                src="Images/playBtn.svg"
+                                alt="Play button">
+                            <img width="30" id="next" class="invert"
+                                src="Images/nextBtn.svg"
+                                alt="Next button">
+                        </div>
+                        <div class="timeAndVolume">
+                        <div class="songTime invert">
+                            <!-- asdfsd -->
+                        </div>
+                        <div class="volume">
+                            <img width="25" class="invert" src="Images/volume.svg" alt="volume image">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
